@@ -14,7 +14,7 @@
     <style>
         #abc
         {
-            border: solid; width: 400px; height: 450px;
+            border: solid; width: 450px; height: 400px;
             border-radius: 8px;
             border-color: blueviolet;
             background-color:aliceblue;
