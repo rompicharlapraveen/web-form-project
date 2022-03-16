@@ -18,7 +18,7 @@
             border-radius: 8px;
             border-color: blueviolet;
             background-color:aliceblue;
-            padding: 8em 0;
+            padding: 6em 0;
         }
 
          a:link, a:visited 
@@ -35,7 +35,10 @@
         {
             background-color: black;
         }
-
+         p
+        {
+            text-align:left;
+        }
     </style>
 </head>
 <body style="background-color:antiquewhite">
@@ -53,15 +56,14 @@
         <form id="form1" runat="server" >
        <div id="abc">
                 <p>
-                     <i class="fa fa-map-marker" style="font-size:24px;"></i>&nbsp;&nbsp;
+                      &nbsp;&nbsp; <i class="fa fa-map-marker" style="font-size:24px;"></i>&nbsp;&nbsp;
                         207 Kavuri Hills Phase-2, Madhapur, Hyderabad 500033 India
                         919 N Plum Grove Rd, Suite E Schaumburg, IL 60173 USA<br /><br />
                    
-                    <i class="fa fa-phone" style="font-size:24px"></i>&nbsp;&nbsp;
-                         US: +1 312 985 7557<br/>
-                         India: +91 90300 22800<br /><br />
+                   &nbsp;&nbsp; <i class="fa fa-phone" style="font-size:24px"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                         US: +1 312 985 7557, India: +91 90300 22800<br /><br />
 
-                    <i class="fa fa-envelope-o" style="font-size:24px"></i>&nbsp;&nbsp;
+                   &nbsp;&nbsp; <i class="fa fa-envelope-o" style="font-size:24px"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                         info@cognine.com
                 </p>
             </ul>
