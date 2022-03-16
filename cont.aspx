@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <style>
         #abc
         {
-            border: solid; width: 400px; height: 400px;
-            padding: 1em 0;
+            border: solid; width: 400px; height: 450px;
             border-radius: 8px;
             border-color: blueviolet;
             background-color:aliceblue;
@@ -52,14 +52,18 @@
                 <br /><br />
         <form id="form1" runat="server" >
        <div id="abc">
-           <ul class="clearfix">
-                <li>207 Kavuri Hills Phase-2, Madhapur, Hyderabad 500033 India</li>
-                <li>919 N Plum Grove Rd, Suite E Schaumburg, IL 60173 USA</li>
-                <li>
-                <p>US: +1 312 985 7557</p>
-                <p>India: +91 90300 22800</p>
-                </li>
-                <li> info@cognine.com</li>
+                <p>
+                     <i class="fa fa-map-marker" style="font-size:24px;"></i>&nbsp;&nbsp;
+                        207 Kavuri Hills Phase-2, Madhapur, Hyderabad 500033 India
+                        919 N Plum Grove Rd, Suite E Schaumburg, IL 60173 USA<br /><br />
+                   
+                    <i class="fa fa-phone" style="font-size:24px"></i>&nbsp;&nbsp;
+                         US: +1 312 985 7557<br/>
+                         India: +91 90300 22800<br /><br />
+
+                    <i class="fa fa-envelope-o" style="font-size:24px"></i>&nbsp;&nbsp;
+                        info@cognine.com
+                </p>
             </ul>
        </div>
     </form>
